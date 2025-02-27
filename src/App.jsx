@@ -40,7 +40,7 @@ function App() {
   return (
     <div className={`min-vh-100 d-flex flex-column align-items-center justify-content-center p-4 ${darkTheme ? "bg-dark text-white" : "bg-light text-dark"}`}>
       <div className="container p-4 rounded shadow-lg" style={{ backgroundColor: darkTheme ? "#333" : "#fff" }}>
-        <h3 className="text-center mb-4">{darkTheme ? "🌙 Dark Mode" : "☀️ Light Mode"}</h3>
+        <h3 className="text-center mb-4">{darkTheme ? "🌙 Todo List" : "☀️ Todo List"}</h3>
         <div className="row">
           <div className="col-11">
             <Form.Control
